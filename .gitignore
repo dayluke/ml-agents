@@ -1,14 +1,3 @@
-# Output Artifacts (Legacy)
-/models
-/summaries
-# Output Artifacts
-/results
-# Output Builds
-/Builds
-
-# Training environments
-/envs
-
 # Environemnt logfile
 *Project.log
 
@@ -43,7 +32,6 @@
 *.apk
 *.unitypackage
 *.app
-*.exe
 *.x86_64
 *.x86
 
@@ -84,10 +72,6 @@
 # Ignore PyPi build files.
 dist/
 build/
-
-# Python virtual environment
-venv/
-.mypy_cache/
 
 # Code coverage report
 .coverage
